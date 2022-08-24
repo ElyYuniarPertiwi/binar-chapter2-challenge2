@@ -1,0 +1,140 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+}
+
+.bg-primary {
+    background-color: darkblue !important;
+}
+
+.bg-secondary {
+    background-color: #F1F3FF !important;
+}
+
+.bg-success {
+    background-color: limegreen !important;
+}
+
+.btn-success {
+    background-color: limegreen !important;
+    border: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 150%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 36px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    margin-right: 1rem;
+    border-radius: 100px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+}
+
+.car {
+    max-width: 700px;
+}
+
+.page-link:hover{
+    background-color: green;
+}
+
+.nav-item:hover{
+    background-color: #e7eafa;
+}
+
+
+
+/* Phone */
+@media only screen and (max-width: 640px) {
+    .whyus, .faq {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .star {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .carousel-inner {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .w-50 {
+        width: auto !important;
+    }
+
+    .car {
+        max-width: 95%;
+    }
+
+    .service{
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav{
+        margin-top: 0;
+    }
+}
